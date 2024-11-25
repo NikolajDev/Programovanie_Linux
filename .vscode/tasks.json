@@ -12,7 +12,10 @@
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lvulkan",
                 "-lglfw",
-                //"-lraylib"
+                "-lraylib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
             ],
             "options": {
                 "cwd": "${fileDirname}"
