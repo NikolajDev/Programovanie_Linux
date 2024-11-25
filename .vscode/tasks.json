@@ -11,8 +11,8 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lvulkan",
-                "-lglfw",
-                "-lraylib"
+                //"-lglfw",
+                //"-lraylib"
             ],
             "options": {
                 "cwd": "${fileDirname}"
